@@ -4,8 +4,12 @@ Displays a live Race Dashboard from the Nascar live feed.  Requires docker.
 
 ``` git clone https://github.com/VMI1994/Nascar-Live-Dashboard.git ```
 
+``` cd Nascar-Live-Dashboard ```
+
+
 On Linux:
 ``` sudo docker build -t webdash . ```
+
 On Mac:
 ``` sudo docker buildx build -t webdash . ```
 
