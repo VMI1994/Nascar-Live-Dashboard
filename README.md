@@ -18,4 +18,4 @@ Run:
 
 The dashboard can be found at http://localhost:8448
 
-![1]()
+![1](https://github.com/VMI1994/Nascar-Live-Dashboard/blob/main/1.jpg)
