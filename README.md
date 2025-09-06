@@ -14,7 +14,7 @@ On Mac:
 ``` sudo docker buildx build -t webdash . ```
 
 Run:
-``` sudo docker run -it --rm --name webdash webdash ```
+``` sudo docker run -it --rm --name webdash -p8448:8448 webdash ```
 
 The dashboard can be found at http://localhost:8448
 
