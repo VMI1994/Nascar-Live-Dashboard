@@ -1,7 +1,5 @@
 ![1](https://github.com/VMI1994/Nascar-Live-Dashboard/blob/main/kali.gif)
 
-![2](https://github.com/VMI1994/Nascar-Live-Dashboard/blob/main/RaceDash.png)
-
 # RaceDash - Live NASCAR Race Dashboard
 
 A real-time web dashboard that displays live NASCAR race data using the official NASCAR live feed API. Built with Python Flask and a modern Tailwind CSS frontend.
