@@ -38,93 +38,9 @@ RaceDash pulls real-time data from the official NASCAR API:
 
 ## 🛠️ Installation
 
-### Prerequisites
-
-- Python 3.8 or higher
-- pip (Python package manager)
-
-### Setup
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/RaceDash.git
-   cd RaceDash
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   pip install flask requests
-   ```
-
-3. **Run the dashboard**:
-   ```bash
-   python RaceDash.py
-   ```
-
-The dashboard will automatically open in your browser at http://127.0.0.1:8448
-
-## 🎨 How to Run
-
-The application has two ways to run:
-
-### Option 1: Python Directly
-```bash
-python RaceDash.py
-```
-This will:
-- Start the Flask web server on port 8448
-- Automatically open the dashboard in your default browser
-- Begin auto-refreshing data every 2 seconds
-
-### Option 2: Manual Access
-If you want to access the dashboard manually:
-```bash
-python RaceDash.py &
-```
-Then open http://127.0.0.1:8448 in your browser
-
-## 📝 API Endpoints
-
-### `/`
-Main dashboard page with full UI rendering
-
-### `/api/live`
-REST API endpoint returning JSON data in the same format as the live feed
-
-**Example**:
-```bash
-curl http://127.0.0.1:8448/api/live
-```
-
-## 🎯 Usage Examples
-
-### Accessing Race Data via API
-```python
-import requests
-
-response = requests.get('http://127.00.1:8448/api/live')
-race_data = response.json()
-
-# Get top driver
-top_driver = race_data['vehicles'][0]
-print(f"Leader: {top_driver['driver']['full_name']} ({top_driver['vehicle_number']})")
-
-# Get current lap
-print(f"Current Lap: {race_data['lap_number']}")
-
-# Get flag state
-print(f"Flag: {race_data['flag_state']}")
-```
-
-### Checking Race Status
-```python
-if race_data['flag_state'] == 9:
-    print("🏁 Checkered flag - Race finished!")
-elif race_data['flag_state'] == 1:
-    print("🟢 Green flag - Free racing")
-elif race_data['flag_state'] == 2:
-    print("🟡 Yellow flag - Caution in effect")
-```
+- Download the appropriate binary executable file for your system(Windows, Ubuntu or Apple Silicone)
+- Double click the executable to start
+- The dashboard will automatically open in your browser at http://127.0.0.1:8448
 
 ## 🔧 Configuration
 
@@ -133,27 +49,12 @@ The dashboard runs on:
 - **Host**: localhost (127.0.0.1)
 - **Refresh Rate**: 2 seconds (auto-refresh)
 
-You can modify these values in the Flask app configuration or the `__main__` section.
-
 ## 🌐 Cross-Platform Support
 
 RaceDash has been built and packaged for:
 - ✅ **macOS** (Silicon/M1/M2)
-- ✅ **Windows 11**
+- ✅ **Windows 10/11**
 - ✅ **Ubuntu/Linux**
-
-### Building Binaries with PyInstaller
-
-```bash
-# macOS
-pyinstaller --onefile --windowed --name RaceDash RaceDash.py
-
-# Windows
-pyinstaller --onefile --noconsole --name RaceDash RaceDash.py
-
-# Ubuntu
-pyinstaller --onefile --windowed --name RaceDash RaceDash.py
-```
 
 ## 📱 Browser Support
 
@@ -213,15 +114,6 @@ pyinstaller --onefile --windowed --name RaceDash RaceDash.py
 - Check internet connection
 - Verify NASCAR API is accessible
 - Check if race is active (API may return empty data during off-season)
-
-### Browser Opens Slowly
-- Increase timeout in `fetch_data()` function (currently set to 6 seconds)
-- Consider using a different browser
-
-### Stagnation Warning
-- This appears when no vehicles are detected
-- Common during pit stops, safety cars, or after race completion
-- Indicates the API returned empty vehicle list
 
 ## 📄 License
 
