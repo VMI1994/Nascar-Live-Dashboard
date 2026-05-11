@@ -1,14 +1,21 @@
-![1](https://github.com/VMI1994/Nascar-Live-Dashboard/blob/main/kali.gif)
-
-![2](https://github.com/VMI1994/Nascar-Live-Dashboard/blob/main/RaceDash.jpg)
-
-
 # RaceDash - Live NASCAR Race Dashboard
 
 A real-time web dashboard that displays live NASCAR race data using the official NASCAR live feed API. Built with Python Flask and a modern Tailwind CSS frontend.
 
 ![RaceDash Dashboard Preview](https://img.shields.io/badge/Status-Live-green)
 ![License](https://img.shields.io/badge/License-MIT-blue)
+
+![1](https://github.com/VMI1994/Nascar-Live-Dashboard/blob/main/kali.gif)
+
+![2](https://github.com/VMI1994/Nascar-Live-Dashboard/blob/main/RaceDash.jpg)
+
+## 🛠️ Installation
+
+``` git clone https://github.com/VMI1994/Nascar-Live-Dashboard ```
+
+- Double click the executable to start
+- The dashboard will automatically open in your browser at http://127.0.0.1:8448
+- If you have difficulty running the program make sure you set the permissions as executable
 
 ## 🚀 Features
 
@@ -38,14 +45,6 @@ RaceDash pulls real-time data from the official NASCAR API:
 - **Base URL**: https://cf.nascar.com/live/feeds/live-feed.json
 - **Data Frequency**: Updates automatically every 2 seconds
 - **Content**: Full race telemetry, driver standings, and real-time status
-
-## 🛠️ Installation
-
-``` git clone https://github.com/VMI1994/Nascar-Live-Dashboard ```
-
-- Double click the executable to start
-- The dashboard will automatically open in your browser at http://127.0.0.1:8448
-- If you have difficulty running the program make sure you set the permissions as executable
 
 ## 🔧 Configuration
 
