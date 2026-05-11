@@ -41,7 +41,8 @@ RaceDash pulls real-time data from the official NASCAR API:
 
 ## 🛠️ Installation
 
-- git clone https://github.com/VMI1994/Nascar-Live-Dashboard
+``` git clone https://github.com/VMI1994/Nascar-Live-Dashboard ```
+
 - Double click the executable to start
 - The dashboard will automatically open in your browser at http://127.0.0.1:8448
 - If you have difficulty running the program make sure you set the permissions as executable
