@@ -1,6 +1,8 @@
 # RaceDash - Live NASCAR Race Dashboard
 
-A real-time web dashboard that displays live NASCAR race data using the official NASCAR live feed API. Built with Python Flask and a modern Tailwind CSS frontend.
+A real-time web dashboard that displays live NASCAR race data using the official NASCAR live feed API. 
+
+**Built with ❤️ for NASCAR racing fans using Python Flask and a modern Tailwind CSS frontend**
 
 ![RaceDash Dashboard Preview](https://img.shields.io/badge/Status-Live-green)
 ![License](https://img.shields.io/badge/License-MIT-blue)
