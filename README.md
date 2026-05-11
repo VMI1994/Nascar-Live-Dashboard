@@ -1,6 +1,6 @@
 ![1](https://github.com/VMI1994/Nascar-Live-Dashboard/blob/main/kali.gif)
 
-![2](https://github.com/VMI1994/Nascar-Live-Dashboard/blob/main/kali.gif)
+![2](https://github.com/VMI1994/Nascar-Live-Dashboard/blob/main/kali.jpg)
 
 
 # RaceDash - Live NASCAR Race Dashboard
